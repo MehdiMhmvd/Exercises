@@ -1,7 +1,9 @@
 m =4
-arr = [2,2,4,3]   #2 2 4 3
+arr = (2,2,4,3)   #2 2 4 3
 index = set()
 arrdict = {arr[i] : i for i in range(len(arr)) }
+
+keys = list(arrdict.keys())
 '''
 for i in range(len(arr)):
 
