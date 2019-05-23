@@ -12,7 +12,7 @@ brr = [11, 4 ,11,8, 7 ,3,3, 7, 10, 13,13, 4, 8, 12, 11, 10,8 ,14, 12]
 
 OValues = {}
 NewValues = {}
-diff = []
+diff = set()
 
 for i in range(len(brr)):
 	OValues[brr[i]] = brr.count(brr[i])
@@ -20,13 +20,8 @@ for n in range(len(arr)):
 	NewValues[arr[n]] = arr.count(arr[n])
 	
 for item in OValues:
-	if item  not in NewValues.keys():
-		for m in range(OValues[item]):
-			diff.append(item)
-	elif NewValues[item] != OValues[item]:
-		d = OValues[item] - NewValues[item]
-		for i in range(d):
-			diff.append(item)
+	if item  not in set(NewValues.keys()) or NewValues[item] != OValues[item]:
+			diff.add(item)
 
 
 
