@@ -11,7 +11,7 @@ def angryProfessor(k, a):
 		if item <= 0:
 			present += 1
 	if present >= k:
-		result = "No"
+		result = "NO"
 	else:
 		result = "YES"
 	return result
