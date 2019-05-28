@@ -31,12 +31,39 @@ p{
 	font-size: 30px;
 }
 #p2{
-	color: red;
+	color: brown;
 	font-size:25px;
 	marks: 
 }
 p.top{
 	color:white;
 	background-color: blue
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  padding: 15px 25px;
+  background-color: f44336;
+  text-align: center
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
