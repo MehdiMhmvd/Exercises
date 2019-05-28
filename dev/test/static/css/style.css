@@ -40,30 +40,22 @@ p.top{
 	background-color: blue
 }
 
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
+ 
+ 
 
-a:visited {
+a:link ,a:visited {
   color: white;
-  padding: 15px 25px;
-  background-color: f44336;
-  text-align: center
+  padding: 15px 20px;
+  background-color: #f44336;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+a:hover ,a:active{
+  background-color: red ;
+ 
 }
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
+
 
