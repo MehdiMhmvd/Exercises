@@ -2,9 +2,6 @@ body{
 	background-color: powderblue;
 	font-size: 30px;
 	font-family: courier;
-
-
-
 }
 
 
@@ -13,20 +10,19 @@ h1{
 	font-size: 15px;
 	border: 2px solid blue;
 	padding: 5px;
+	text-align: center;
 	margin: 30px
-
-
 }
 
 p{
-	color:red;
-	font-size: 20px
+	color:black;
+	font-size: 20px;
 }
-#p10 {
+#p10{
 	color: blue ;
 	font-size: 30px;
 }
 #p2{
 	color: red;
-	font-size:30px
+	font-size:30px;
 }
