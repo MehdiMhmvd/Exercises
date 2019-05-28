@@ -11,6 +11,10 @@ def index():
 def user(name):
 	return render_template("user.html", username=name)
 
+@app.route("/result")
+def result():
+	return render_template("result.html")
+
 
 if __name__ == "__main__":
 	app.run(debug = True)
