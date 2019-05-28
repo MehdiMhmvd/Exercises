@@ -13,6 +13,14 @@ h1{
 	text-align: center;
 	margin: 30px
 }
+h2{
+	font-size: 50px;
+	color:brown;
+}
+h2.top{
+		color:black;
+		font-size: 20px;
+}
 
 p{
 	color:black;
@@ -24,5 +32,11 @@ p{
 }
 #p2{
 	color: red;
-	font-size:30px;
+	font-size:25px;
+	marks: 
 }
+p.top{
+	color:white;
+	background-color: blue
+}
+
