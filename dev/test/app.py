@@ -19,6 +19,9 @@ def result():
 def book():
 	return render_template("book.html")
 
+@app.route("/teacher")
+def teacher():
+	return render_template("pictureelement.html")
 
 if __name__ == "__main__":
 	app.run(debug = True)
