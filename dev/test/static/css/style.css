@@ -39,8 +39,14 @@ p.top{
 	color:white;
 	background-color: blue
 }
-
- 
+img.home{
+	background-color: powderblue
+	width:30px;
+	height: 30px;
+} 
+a.home{
+	background-color: grey
+}
  
 
 a:link ,a:visited {
