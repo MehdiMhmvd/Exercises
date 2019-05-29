@@ -15,6 +15,10 @@ def user(name):
 def result():
 	return render_template("result.html")
 
+@app.route("/book")
+def book():
+	return render_template("book.html")
+
 
 if __name__ == "__main__":
 	app.run(debug = True)
