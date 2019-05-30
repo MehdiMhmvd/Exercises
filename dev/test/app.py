@@ -23,5 +23,9 @@ def book():
 def teacher():
 	return render_template("pictureelement.html")
 
+@app.route("/lamps")
+def lamps():
+	return render_template("lamps.html")
+
 if __name__ == "__main__":
 	app.run(debug = True)
