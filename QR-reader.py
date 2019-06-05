@@ -14,7 +14,7 @@ def decoded (img):
 def qr_data(img):
 	decodeObject = decode(img)
 	for obj in decodeObject:
-		d = obj.data.decode('UTF-8')
+		d = obj.data.decode('UTF-8') ## convertung byte to string 
 	
 	return d
 
