@@ -1,4 +1,17 @@
-md5 = "bdf37e491ec2c0e02c1d731460f247c21319772829af19f619ce882f76614d67"
+import requests
+
+def telegram_bot_sendtext(bot_message):
+    
+    bot_token = '853533585:AAHi7W-NeNanfTbmnsA1P5ld23Gj7zx0iLo'
+    bot_chatID = ''
+    send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
+
+    response = requests.get(send_text)
+
+    return response.json()
+    
+
+
 
 
 def insert_dash(md5):
@@ -46,5 +59,10 @@ else:
 	#zz = ((X-Y) * 100)   /  (X-(Y*100)) wrong
 	print(z)
 	print("Result is : %.3f"%z)
+
+	
+test = telegram_bot_sendtext("Testing Telegram bot")
+print(test)
+
 	
 
